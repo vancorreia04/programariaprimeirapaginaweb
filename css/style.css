@@ -22,8 +22,12 @@ h2{
 }
 section{
     
-     max-width: 60%;
+     width: 60%;
      margin: 0% auto;
+     
+}
+section section{
+    width: 100%;
 }
 h1{
     font-size: 60px;
@@ -66,4 +70,10 @@ a{
 .principal li{
     display: inline-block;
     line-height: 2.5;
+}
+button{
+    background: #41f341;
+    border: 1px solid transparent;
+    padding:2px 20px ;
+    border-radius: 3px;
 }
